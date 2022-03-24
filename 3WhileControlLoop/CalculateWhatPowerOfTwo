@@ -1,1 +1,10 @@
 #Given a number find what power of 2 it is and print result as "2 ** x"
+print('Enter a number that is a power of two.')
+product = int(input())
+quotient = product / 2
+exponent = 1
+while(quotient > 1):
+    quotient = quotient / 2
+    exponent = exponent + 1
+
+print('2 ** %d = %d' % (exponent, product))
