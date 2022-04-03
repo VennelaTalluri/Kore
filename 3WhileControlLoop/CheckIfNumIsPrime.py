@@ -8,7 +8,7 @@ while(divisor>=2 and divisor<=num**1/2):
         print('Composite')
         exit()
     divisor=divisor+1
-else:
+else:       #redundant
     print('Prime')
 
 
